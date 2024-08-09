@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-trivia-quiz/static/css/main.8d383d65.css",
+    "main.js": "/my-trivia-quiz/static/js/main.69e31bc0.js",
+    "static/js/453.c6566b59.chunk.js": "/my-trivia-quiz/static/js/453.c6566b59.chunk.js",
+    "static/media/vinyl_PNG1.png": "/my-trivia-quiz/static/media/vinyl_PNG1.05c886523a77e1a043ce.png",
+    "index.html": "/my-trivia-quiz/index.html",
+    "main.8d383d65.css.map": "/my-trivia-quiz/static/css/main.8d383d65.css.map",
+    "main.69e31bc0.js.map": "/my-trivia-quiz/static/js/main.69e31bc0.js.map",
+    "453.c6566b59.chunk.js.map": "/my-trivia-quiz/static/js/453.c6566b59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d383d65.css",
+    "static/js/main.69e31bc0.js"
+  ]
+}
