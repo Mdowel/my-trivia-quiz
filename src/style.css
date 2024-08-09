@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+}
+
+h1 {
+    font-size: 3.25rem;
+    text-shadow: 2px 2px 5px gray;
+}
+
+p {
+    font-size: 1.25rem; 
+}
+
+.blob-top {   
+    position: fixed;
+    right: 0px;
+    top: -236.73px;
+    height: 600px;
+    transform: rotate(118.49deg);
+    z-index: -2;
+}
+
+.blob-bottom {
+    position: fixed;
+    height: 280px;
+    left: 0%;
+    bottom: 0%;
+    z-index: -2;
+}
+
+.vinyl-img {
+    width: 450px;
+    position: fixed;
+    z-index: -1;
+    filter: opacity(65%)
+}
+
+.btn {
+    background-color: hwb(230 30% 0%);
+    color: #F5F7FB;
+    border: none;
+    border-radius: 15px;
+    height: 52px;
+    width: 193px;
+    font-size: 1rem;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+/* start page */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title-card {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(71, 80, 133, 0.3);
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+/* quiz page */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5em 4.688em;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #DBDEF0;
+    padding-bottom: 1em;
+}
+
+.question {
+    margin-top: 0.2em;
+}
+
+input {
+    display: none;
+}
+
+label {
+    border: 1px solid #4D5B9E;
+    border-radius: 8px;
+    padding: 6px 16px;
+    line-height: 2em;
+}
+
+input:checked + label {
+    background-color: #D6DBF5;
+    border: none;
+}
+
+
