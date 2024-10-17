@@ -3,8 +3,6 @@ import he from "he"
 
 export default function Question({question, selectedAnswer, onAnswerSelect, correctAnswer, incorrectAnswers, index, isChecked}) {
 
-    // const Question = React.memo((
-    //     {question, selectedAnswer, onAnswerSelect, correctAnswer, incorrectAnswers, index}) => {
             const options = React.useMemo(() => {
                 return [correctAnswer, ...incorrectAnswers].sort(() => Math.random() - 0.5)
             }, [correctAnswer, incorrectAnswers]) 
@@ -43,7 +41,5 @@ export default function Question({question, selectedAnswer, onAnswerSelect, corr
             </form>
         </div>
     )
-// })
-}
 
-// export default Question
+}
