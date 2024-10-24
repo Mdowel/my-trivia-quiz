@@ -16,7 +16,6 @@ export default function Question({question, selectedAnswer, onAnswerSelect, corr
                 {options.map((option, i) => {
                     const isSelected = selectedAnswer === option
                     const isCorrect = option === correctAnswer
-                    // const isCorrectlySelected = isSelected && isCorrect
                      
                     const backgroundColor= isChecked ? isCorrect ? "lightgreen" : isSelected ? "#edbcb9" : '' : ''
 
